@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinsights=self.webpackChunkinsights||[]).push([[4978],{9405:s=>{s.exports=JSON.parse('{"permalink":"/Insights-N-Notes/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
