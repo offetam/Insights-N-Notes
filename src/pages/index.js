@@ -6,8 +6,6 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
-
-
 function HomepageHeader() {
   const siteConfig = {
     title: "Insights n' Notes",
@@ -16,7 +14,7 @@ function HomepageHeader() {
   //const {siteConfig} = useDocusaurusContext();
   return (
     
-    <header className={clsx('hero', styles.heroBanner)} style={{backgroundImage: `url('/img/night_city.jpg')`, height: '375px'}}>
+    <header className={clsx('hero', styles.heroBanner)} style={{backgroundImage: `url('/Insights-N-Notes/img/night_city.jpg')`, height: '375px'}}>
       <div className="container" style = {{color:'white'}}>
       {/* {{backgroundColor: '#7F7F7F'}} */}
         <h1 className="hero__title">{siteConfig.title}</h1>
@@ -27,7 +25,7 @@ function HomepageHeader() {
             to="/docs/intro" style = {{margin:'10px'}}>
             Insights n' Notes 📔
           </Link>
-          {/* {"\n"} Will add later when I include resume
+          {/* {"\n"} Will add later when I include resume, wi
           <Link
               className="button button--secondary button--lg"
               to="/docs/intro" style = {{margin:'10px'}}>
