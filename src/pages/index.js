@@ -25,6 +25,11 @@ function HomepageHeader() {
             to="/docs/intro" style = {{margin:'10px'}}>
             Insights n' Notes 📔
           </Link>
+          <Link
+              className="button button--secondary button--lg"
+              to="/docs/toDoList" style = {{margin:'10px'}}>
+              To-Do List ⏱️
+          </Link>
           {/* {"\n"} Will add later when I include resume, wi
           <Link
               className="button button--secondary button--lg"

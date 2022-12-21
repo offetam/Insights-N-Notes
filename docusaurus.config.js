@@ -72,13 +72,13 @@ const config = {
             position: 'left',
             label: 'Intro',
           },
-          //{to: '/blog', label: 'Blog', position: 'left'}, to link to blog
-          {
-            type: 'doc', 
-            docId: 'toDoList', 
-            label: 'To-Do List', 
-            position: 'left'
-          },
+          {to: '/blog', label: 'Blog', position: 'left'}, //to link to blog
+          // {
+          //   type: 'doc', 
+          //   docId: 'toDoList', 
+          //   position: 'left',
+          //   label: 'To-Do List', 
+          // },
           {
             href: 'https://github.com/etam1234/Insights-N-Notes',
             label: 'GitHub',
