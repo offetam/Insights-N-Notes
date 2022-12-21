@@ -2,6 +2,8 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+The live deployed website can be found [here](https://etam1234.github.io/Insights-N-Notes/) or a direct link: https://etam1234.github.io/Insights-N-Notes/.
+
 ### Installation
 
 ```
