@@ -30,4 +30,47 @@ const sidebars = {
    */
 };
 
-module.exports = sidebars;
+//module.exports = sidebars;
+
+module.exports = {
+  mySideBar:[
+    'intro',
+    'toDoList',
+    'toDoListLEGACY',
+    {
+      type: 'category',
+      label: 'TryHackMe',
+      link: {
+        type: 'doc',
+        id: 'TryHackMe/introduction',
+      },
+      items: [
+          {
+            type: 'category',
+            label: 'Advent Of Cyber 2021',
+            link: {
+              type: 'generated-index',
+            },
+            items: [
+              {
+                type: 'category',
+                label: 'Days 1-7 ~ Web Exploitation',
+                link: {
+                  type: 'generated-index',
+                },
+                items: [
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 1',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 2',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 3',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 4',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 5',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 6',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 7',
+                ]
+              }
+            ]
+          }
+      ],
+    },
+  ],
+};

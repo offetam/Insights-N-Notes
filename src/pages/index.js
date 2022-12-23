@@ -30,7 +30,7 @@ function HomepageHeader() {
               to="/docs/toDoList" style = {{margin:'10px'}}>
               To-Do List ⏱️
           </Link>
-          {/* {"\n"} Will add later when I include resume, wi
+          {/* {"\n"} Will add later when I include resume, wi 
           <Link
               className="button button--secondary button--lg"
               to="/docs/intro" style = {{margin:'10px'}}>

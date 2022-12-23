@@ -63,7 +63,7 @@ const config = {
         title: "Insights N' Notes",
         logo: {
           alt: 'My Site Logo',
-          src: 'img/books.png',
+          src: 'img/books.svg',
         },
         items: [
           {
