@@ -66,8 +66,9 @@ module.exports = {
                   'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 5',
                   'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 6',
                   'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 7',
-                ]
-              }
+                ],
+              },
+            'TryHackMe/Advent-Of-Cyber-2021/Modules/Day 8 ~ Special By Joyn Hammond/Advent of Cyber Day 8',
             ]
           }
       ],
