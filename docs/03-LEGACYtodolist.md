@@ -13,7 +13,7 @@ This is a list of legacy tasks (for archival sake) I've completed as well as the
     - [ ] Proofread first 7 days of TryHackMe [**In Progress**]
 - [ ] Finish adding all my notes on TryHackMe's Advent of Cyber (also add link here) [**In Progress**]
     - [X] Add Day 8 [**December 2022**]
-    - [X] Add Days 9-14 [**Januray 2023**]
+    - [X] Add Days 9-14 [**January 2023**]
     - [ ] Add Remaining days (Days 16-24)
     - [ ] Proofread/fix
 
