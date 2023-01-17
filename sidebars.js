@@ -68,10 +68,36 @@ module.exports = {
                   'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 7',
                 ],
               },
-            'TryHackMe/Advent-Of-Cyber-2021/Modules/Day 8 ~ Special By Joyn Hammond/Advent of Cyber Day 8',
-            ]
-          }
+              'TryHackMe/Advent-Of-Cyber-2021/Modules/Day 8 ~ Special By Joyn Hammond/Advent of Cyber Day 8',
+              {
+                type: 'category',
+                label: 'Days 9-14 ~ Networking',
+                link: {
+                  type: 'generated-index',
+                },
+                items: [
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 9-14 ~ Networking/Advent of Cyber 2021 Day 9',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 9-14 ~ Networking/Advent of Cyber 2021 Day 10',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 9-14 ~ Networking/Advent of Cyber 2021 Day 11',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 9-14 ~ Networking/Advent of Cyber 2021 Day 12',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 9-14 ~ Networking/Advent of Cyber 2021 Day 13',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 9-14 ~ Networking/Advent of Cyber 2021 Day 14',
+                ],
+              },
+            ],   
+          },
+          {
+            type: 'category',
+            label: 'Free Path',
+            link: {
+              type: 'doc',
+              id: 'TryHackMe/Free-Path/Free_Path',
+            },
+            items: [
+            ],
+          },
       ],
     },
+    //'intro', testing sidebar added other stuff (will do eventually later on
   ],
 };

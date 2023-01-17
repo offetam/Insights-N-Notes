@@ -1,0 +1,85 @@
+---
+id: Advent of Cyber 2021 Day 10
+title: Day 10
+description: ​[Day 10] Networking - Networking Offensive Is The Best Defence
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+## [Day 10] <Highlight color="#FFD580">Networking</Highlight> - Networking Offensive Is The Best Defence
+
+>McSkidy is trying to discover how the attackers managed to penetrate the network and cause damage to the Best Festival Company’s infrastructure. She decided to start doing a security assessment of her systems to discover how Grinch Enterprises managed to cause this damage. She started by conducting a security assessment of her systems to discover how Grinch Enterprises managed to cause this damage and wonders what service they exploited.
+>
+>Before McSkidy starts firing up Nmap, let’s review some keywords related to her task. If you are familiar with the terms IP address, protocol, server, and port number, feel free to skip the following three sections and start directly with the Nmap section.
+
+![nmap.png](/img/_resources/Days_9-14/Day_10/nmap.png)
+
+Additionally, `127.0.0.1` is known as the localhost IP. This means that this address will not leave the host. 
+
+
+### Protocols and Servers
+Think of a protocol like this:
+1. Customer: Hello
+2. Barista: Hello
+3. Customer: I want one espresso, please
+4. Barista: That would be £3
+5. Customer: Here you are, £3
+6. Barista: Thank you. Your espresso is ready.
+7. Customer: Thank you.
+
+Visual Representation:
+
+![protocol.png](/img/_resources/Days_9-14/Day_10/protocol.png)
+
+Although in human interaction, some protocols would be skipped. In PC's this wouldn't be possible as the interaction would always remain the same. 
+
+
+To name a few, these are some example TCP/IP protocols:
+
+>Hypertext Transfer Protocol (HTTP) for serving webpages
+Domain Name System (DNS) for resolving hostnames to IP addresses
+Post Office Protocol version 3 (POP3) for delivering email
+Simple Mail Transfer Protocol (SMTP) for sending email
+Telnet for remote login
+Secure Shell (SSH) for secure remote login
+
+### Ports
+>For the host to tell which process receives which packet, we need to use port numbers.
+
+Some examples:
+
+|Protocol|	Port Number|
+|--------|----------|
+|HTTP|	80|
+|HTTPS|	443|
+|POP3|	110|
+|SMTP|	25|
+|SSH	|22|
+|Telnet	|23|
+
+![ports.png](/img/_resources/Days_9-14/Day_10/ports.png)
+
+`nmap -sT MACHINE_IP` is a TCP connect scan on Nmap and `nmap -sS MACHINE_IP` is the command for TCP SYN scan
+
+:::tip
+The TCP connect scan (-sT) is like knocking on a door, waiting for someone to open it, greeting each other, then excusing yourself to leave. The TCP SYN scan (-sS) resembles knocking, and once someone answers, you pretend that it was not you that knocked and walk away innocently. The latter will make it more difficult for the other party to remember you.
+:::
+
+`nmap -sV 10.10.20.20` to get the version info ⬇️
+![nmap_scan.png](/img/_resources/Days_9-14/Day_10/nmap_scan.png)
+
+**The `-p-` argument scans for every port**
+
+However, if we want to scan the `sV` (version) being used at a specific port, we use `-p(you can pass a specific port or a range)`<br />
+![nmap_scan.png](/img/_resources/Days_9-14/Day_10/nmap_scan2.png)
+

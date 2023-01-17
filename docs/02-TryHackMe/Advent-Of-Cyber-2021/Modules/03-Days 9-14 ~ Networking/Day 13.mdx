@@ -1,0 +1,47 @@
+---
+id: Advent of Cyber 2021 Day 13
+title: Day 13
+description: ​[Day 13] Networking - They Lost The Plan! 
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+## [Day 13] <Highlight color="#FFD580">Networking</Highlight> They Lost The Plan! 
+
+>McSkidy has realized that she worked on a rough draft of a disaster recovery plan but locked down the permissions on the file to ensure that it was safe. However, the Grinch accessed the local system and reduced the permissions of her account. Can you elevate her privileges and get the file back?
+
+### Windows Account types
+-    Domain Administrators: This is typically the highest account level you will find in an enterprise along with Enterprise Administrators. An account with this level of privilege can manage all accounts of the organization, their access levels, and almost anything you can think of. A "domain" is a central registry used to manage all users and computers within the organization.
+-    Services: Accounts used by software to perform their tasks such as back-ups or antivirus scans.
+-    Domain users: Accounts typically used by employees. These should have just enough privileges to do their daily jobs, otherwise it leaves a dangerous security gap.
+-    Local accounts: These accounts are only valid on the local system and can not be used over the domain.
+
+![escalation_vectors.png](/img/_resources/Days_9-14/Day_13/escalation_vectors.png)
+**tl;dr** Escalation methodology can be through **many** different avenues. 
+
+![sysinfo.png](/img/_resources/Days_9-14/Day_13/sysinfo.png)   
+Using sysinfo to observe information about the host machine...
+
+![exploit.png](/img/_resources/Days_9-14/Day_13/exploit.png)
+Creating a backup (In this Advent Day, we are exploiting Iperius that lets normal users use admin privileges due to a privilege escalation vulnerability)
+
+![docker.png](/img/_resources/Days_9-14/Day_13/docker.png)   
+Sample run of the listener...
+
+![escalate.png](/img/_resources/Days_9-14/Day_13/escalate.png)   
+Now we demonstrate we have run our .bat to escalate our privileges. 
+
+![flag.png](/img/_resources/Days_9-14/Day_13/flag.png)   
+And then we snoop around to find interesting files?
+
+(USE dir to ls for windows)

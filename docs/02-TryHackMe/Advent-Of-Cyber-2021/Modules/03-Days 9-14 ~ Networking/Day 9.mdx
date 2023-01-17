@@ -1,0 +1,62 @@
+---
+id: Advent of Cyber 2021 Day 9
+title: Day 9
+description: ​[Day 9] Networking - Where Is All This Data Going
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+## [Day 10] <Highlight color="#FFD580">Networking</Highlight> Where Is All This Data Going
+
+>McSkidy recently found out that a large amount of traffic is entering one system on the network. Use your traffic analysis skills to determine what kind of activities Grinch Enterprises are performing.
+
+Here, we start by performing a simple packet analysis with **wireshark**. This is a technique to intercept and analyze network traffic. 
+
+>Packet analysis may also be called with different terms such as packet sniffer, packet analyzer, protocol analyzer, or network analyzer.
+
+Tools like wireshark provide more readability for packets and has many useful features to allow for one to detect a threat. 
+
+![wireshark.png](/img/_resources/Days_9-14/Day_9/wireshark.png)
+
+The filter section lets you filter the packets for a specific target of your choosing. 
+For example, `ip.addr == 172.21.2.116` will search for any ip addresses of this specific destination or source. 
+
+*Some more examples:* <br />
+`http contains google.com` means we are looking for any that have the domain of google.
+Filter by port: `tcp.port : tcp.port == 3389` (we can use the bool operator, `not` , to filter out that specific port too).
+
+### HTTP #1 - GET
+Now, lets look at Http traffic. To filter the request method, we can do `http.request.method == GET` for only `GET` requests.
+We can see here for example there are gets for /admin or /login.
+![getrequest.png](/img/_resources/Days_9-14/Day_9/getrequest.png)
+
+### HTTP #1 - POST
+Now lets check POSTs next, *which are usually used for login forms*. Oh hey what's that? A login detail?
+![post1.png](/img/_resources/Days_9-14/Day_9/post1.png)
+
+Btw, if we rightclick, we can follow the TCP stream like so
+![post2.png](/img/_resources/Days_9-14/Day_9/post2.png)
+Also note the user-agent and the password/username
+
+### DNS (Domain Name System)
+The DNS is what takes a url and changes it to an IP. That's why ppl dont have to remember IPs. The example here we will use this domain: `packet.tryhackme.com`
+ and `udp.port == 53` or DNS (mean the same thing for querying). 
+
+>By expanding the Domain Name System (query) subtree, it is obvious that this packet is a question Questions: 1, where the client queries a domain name and looks for an answer from the server. Also, by checking the Queries subtree, we can see that the client is asking for a type A record of the packet.tryhackme.com domain name.
+
+![dns1.png](/img/_resources/Days_9-14/Day_9/dns1.png)
+
+Packet Containing TXT
+![dns2.png](/img/_resources/Days_9-14/Day_9/dns2.png)
+
+(Mostly just follow the guide to come to the conclusions)

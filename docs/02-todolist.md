@@ -12,14 +12,16 @@ This is a list of immediate additions/changes I am looking to make. <br /> In ad
 - [X] Add first 7 days of TryHackMe
     - [ ] And proofread them [**In Progress**]
 - [ ] Finish adding all my notes on TryHackMe's Advent of Cyber (also add link here) [**In Progress**]
-    - [ ] Add Day 8
-    - [ ] Add Days 9-14
+    - [X] Add Day 8
+    - [X] Add Days 9-14
+    - [ ] Add Remaining days (Days 16-24)
 - [ ] Organize resources tab, including file naming (prioritize within folders)
-- [ ] Add Cyber Risk notes
+- [ ] Add Cyber Risk notes?
 - [ ] Add Advent of Cyber 2022 (after days are finished)
 - [ ] Start adding posts on blog (currently using template placeholders)
 - [ ] Even more Proofread (Permanent in this to-do list 😅)
 - [ ] Add any more ideas that i should add.
+- [ ] Start working on Hackthebox (maybe also academy?)
 
 ## General Ideas 📐
 
