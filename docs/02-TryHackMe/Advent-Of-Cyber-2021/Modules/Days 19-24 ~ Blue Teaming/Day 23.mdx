@@ -1,0 +1,36 @@
+---
+id: Advent of Cyber 2021 Day 23
+title: Day 23
+sidebar_label: Day 23 ~ PowershELlF Magic 
+description: ​[Day 23] ~ PowershELlF Magic 
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+## [Day 23] <Highlight color="#6595C4"><span>Blue Teaming</span></Highlight> PowershELlF Magic  
+
+>One of the administrators with access to the Elf Dome Defense system realized that his password file was missing from his desktop. Without the password, he will not be able to log into the Mission Control panel. McSkidy suspects that perhaps one of the previous phishing attempts was successful. McSkidy jumps into action.
+
+>You need to inspect the event logs to determine what has occurred and see if you can retrieve the password from the deleted text file. 
+
+Powshell Logging refers to auditing commands on a Windows Powershell for example.
+
+Usually one would use an Event Viewer to view these logs locally on a Windows system. Providers will give different events to investiagte. For this challenge, we will look at 4103 and 4104.
+![eventlog-observe.png](/img/_resources/Days_19-24/eventlog-observe.png)
+
+![powershell-ise.png](/img/_resources/Days_19-24/powershell-ise.png)  
+Running this on the powershell alone wouldnt work so this is cool to know.
+
+*Basically run `C:\Users\Administrator\Desktop\decryptor.ps1` and it will decode the value*
+
+

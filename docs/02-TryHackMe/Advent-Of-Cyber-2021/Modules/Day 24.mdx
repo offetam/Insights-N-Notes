@@ -1,0 +1,54 @@
+---
+id: Advent of Cyber 2021 Day 24
+title: Day 24
+sidebar_label: Day 24 ~ Post Exploitation ~ Learning From The Grinch 
+description: ​[Day 24] ~ Post Exploitation ~ Learning From The Grinch  
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+## [Day 24] <Highlight color="#6595C4"><span>Post Exploitation</span></Highlight> Learning From The Grinch
+
+>McSkidy has learned a lot about how Grinch Enterprises operates and wants to prepare for any future attacks from anyone who hates Christmas. From a forensics analysis they did, she noticed that the Grinch Enterprises performed some malicious activities. She wants to perform these on the same machine they compromised to understand her adversaries a little better. Can you follow along and help her prepare for any other attacks?
+
+:::tip
+### Post Exploitation
+Post-Exploitation, an attacker will attempt to either escalate their privileges or main persistence and stay there are long as possible.
+:::
+
+### Password Hashing
+password123 → MD5 → 7576f3a00f6de47b0c72c5baf2d505b0
+
+(INPUT → FUNCTION → OUTPUT)
+
+### Authentication and Hashing
+Windows stores crednetials int he Security Accounts Manage (SAM) db
+
+SAM will have 2 kinds of hashes:
+
+LAN Manager (LM) - the old password hash storage for legacy systems
+
+NT Lan manager (NTLM) - the modern windows hashing algo. 
+
+Under the Local Security Authority Subsystem Service (LSASS) process, it will match the user credentials with that in the SAM db and compare the hash of the user pw. It's stored for convenience to avoid needing credentials repeatedly.
+
+![escalation.png](/img/_resources/Days_19-24/escalation.png)
+
+And finally the wordlist matched a hashed password that is commonly used "1234567890"
+![matched-hash.png](/img/_resources/Days_19-24/matched-hash.png)
+
+### Final day complete!!!  
+![duck dance](https://media.tenor.com/YQOENmm9RDUAAAAC/duck-dancing.gif)
+
+
+

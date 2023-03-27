@@ -1,0 +1,39 @@
+---
+id: Advent of Cyber 2021 Day 18
+title: Day 18
+sidebar_label: Day 18 ~ Playing With Containers 
+description: ​[Day 18] ~ Playing With Containers 
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+## [Day 18] <Highlight color="#c3b4ef"><span>Cloud</span></Highlight> 
+
+>Grinch Enterprises has been gloating about their attack on an underground forum. We know they were specifically targeting organizations in a campaign they've themed "Advent of Cyber" (AOC) - what a frustrating coincidence. Tracing the user back over time - we also encountered a reference to using AWS Elastic Container Registry (ECR) to store container images they use as infrastructure in their attacks. Let's see if we can find out more about the attack tooling Grinch Enterprises is using.
+
+>In a cloud-native computing environment, containers are a first-choice solution for deploying infrastructure. Similar to virtual machines, containers serve as the compute fabric for many running applications and hosted processes in the cloud.
+
+![docker.png](/img/_resources/Days_17-18/docker.png)
+We are pulling this container to investigate.
+
+Next we use `ls -la` which shows there are no regular files or subdirectories in the present working directory.
+
+So we try `printenv` to learn more about the environment configurations where we see:
+![printenv.png](/img/_resources/Days_17-18/printenv.png)
+
+:::tip
+`printenv` lists the values of environmental variables
+:::
+
+An api key that they forgot to remove from the environment configs.
+![exposedkey.png](/img/_resources/Days_17-18/exposedkey.png)

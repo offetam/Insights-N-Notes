@@ -1,0 +1,63 @@
+---
+id: Advent of Cyber 2021 Day 16
+title: Day 16
+sidebar_label: Day 16 ~ OSINT Ransomware Madness
+description: ​[Day 16] OSINT Ransomware Madness
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+## [Day 16] <Highlight color="gray"><span color = '#b5b7bd'>OSINT</span></Highlight> Ransomware Madness
+
+Woo.
+
+### OSINT Process Cycle
+Each individual and team will have a methodology in their approach.
+   
+
+
+![osint-process.png](/img/_resources/Day_16/osint-process.png)   
+A general idea of the methodology shared on TryHackMe*
+ 
+ An the example of the processes in the cycle:   
+ ![example-process.png](/img/_resources/Day_16/example-process.png)
+ 
+ And another example, detailing an example process when performing OSINT:   
+ ![step-example.png](/img/_resources/Day_16/step-example.png)
+ 
+ ### OSINT & The Blockchain
+ There are many readily available tools to help follow a blockchain.
+ 
+ >You are the responding intelligence officer on the hunt for more information about the infamous "Grinch Enterprises" ransomware gang. 
+As a response to the recent ransomware activity from Grinch Enterprises, your team has managed to collect a sample ransomware note (below). 
+
+![rans-note.png](/img/_resources/Day_16/rans-note.png)
+
+Since it's in another language, lets try translating it. I will use Deepl to do so.
+![translate-note.png](/img/_resources/Day_16/translate-note.png)   
+Translated message.
+
+![grinch-twitter.png](/img/_resources/Day_16/grinch-twitter.png)
+Here is the Grinch on twitter
+
+:::tip
+It becomes easier the more the Grinch is investigated as google will SEO those search results.
+:::
+
+![deets.png](/img/_resources/Day_16/deets.png)
+And lastly as we dig deeper, we find their github, where they forgot to hide their commit with their email and name.
+
+
+:::note Personal Thoughts
+I personally enjoyed the OSINT lab the most! I'd love to go deeper into the concept of OSINT later on 😃.
+:::

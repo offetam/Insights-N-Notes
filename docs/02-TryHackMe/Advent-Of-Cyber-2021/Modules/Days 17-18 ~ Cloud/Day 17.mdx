@@ -1,0 +1,61 @@
+---
+id: Advent of Cyber 2021 Day 17
+title: Day 17
+sidebar_label: Day 17 ~ Elf Leaks 
+description: ​[Day 17] ~ Elf Leaks 
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+## [Day 17] <Highlight color="#c3b4ef"><span>Cloud</span></Highlight> Elf Leaks 
+
+### OSINT Process Cycle
+Each individual and team will have a methodology in their approach.
+
+### Shadow IT
+>Public Cloud is an easy way for business units to engage in shadow IT. And the most accessible public cloud to get started with is AWS.
+
+![bucketexpose.png](/img/_resources/Days_17-18/bucketexpose.png)
+Bucket quite clearly out for everyone to see
+
+`http://images.bestfestivalcompany.com.s3.amazonaws.com/` - with this link above, we can just see the entire bucket's contents, very insecure.   
+![bucketcontents.png](/img/_resources/Days_17-18/bucketcontents.png)
+
+![keyinfo.png](/img/_resources/Days_17-18/keyinfo.png)   
+*Learned that the keys usually start with ASIA or AKIA*
+
+### Useful techniques:
+
+A few other common AWS reconnaissance techniques are:
+
+   - Finding the Account ID belonging to an access key:
+   		- 	`aws sts get-access-key-info --access-key-id AKIAEXAMPLE` 
+  -  Determining the Username the access key you're using belongs to
+		-  `aws sts get-caller-identity --profile PROFILENAME`
+    - Listing all the EC2 instances running in an account
+    aws ec2 describe-instances --output text --profile PROFILENAME
+ -    Listing all the EC2 instances running in an account in a different region
+    aws ec2 describe-instances --output text --region us-east-1 --profile PROFILENAME
+	
+	
+![instances.png](/img/_resources/Days_17-18/instances.png)   
+Esssentially we gotta invote the --profile command otherwise it wont know what we are checking for.
+
+![details.png](/img/_resources/Days_17-18/details.png)   
+Through the command - `aws secretsmanager list-secrets --region us-east-1 --profile apple`  (note apple was the profile I made using `configure`)
+
+![details1.png](/img/_resources/Days_17-18/details1.png)   
+Closest region is apparently in EU North 1
+
+![details2.png](/img/_resources/Days_17-18/details2.png)   
+*(Thought it'd be Canada)*

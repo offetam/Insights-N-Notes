@@ -1,0 +1,38 @@
+---
+id: Advent of Cyber 2021 Day 20
+title: Day 20
+sidebar_label: Day 20 ~ Playing With Containers 
+description: ​[Day 20] ~ Playing With Containers 
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+## [Day 20] <Highlight color="#6595C4"><span>Blue Teaming</span></Highlight>  What's the Worst That Could Happen? 
+
+>McPayroll is processing the bonuses for all the hardworking elves. One of the Elves has sent McPayroll a file that they're claiming contains their updated payment information. The only problem is that she doesn't recognize the Elf - could this be a sneaky attack from Grinch Enterprises to cause more havoc? Analyze the file to see if you can determine whether it's malicious or not!
+
+>McPayroll provides this file to McSkidy who is a member of the security team. McSkidy is a wise elf. She knows to analyze this file in a sandboxed environment. Therefore, she fired up her Remnux VM to take a look at the suspicious file. She unzipped the archive and saw that there was a folder named 'Samples' and a file named 'testfile' in the zip archive. She copied these files over to her Remnux desktop to begin the analysis.
+
+![filecommand.png](/img/_resources/Days_19-24/filecommand.png)
+The goal here is to find the actual filetype of the file, investigating potential viruses...
+
+:::tip
+A noteworthy addition i've been paying attention to is how Linus Tech Tips was hacked because of a spoofed file that was a pdf that actually launched executables, hijacking your session browser
+
+See: https://www.youtube.com/watch?v=nYdS3FIu3rI
+:::
+
+<br />
+
+![running-file.png](/img/_resources/Days_19-24/running-file.png)  
+For example, we know it's some sort of executable which is very odd and exceptionally suspicious...

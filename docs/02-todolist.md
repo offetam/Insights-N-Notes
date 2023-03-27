@@ -11,11 +11,13 @@ This is a list of immediate additions/changes I am looking to make. <br /> In ad
 
 - [X] Add first 7 days of TryHackMe
     - [ ] And proofread them [**In Progress**]
-- [ ] Finish adding all my notes on TryHackMe's Advent of Cyber (also add link here) [**In Progress**]
+- [X] Finish adding all my notes on TryHackMe's Advent of Cyber (also add link here) 
     - [X] Add Day 8
     - [X] Add Days 9-14
-    - [ ] Add Remaining days (Days 16-24)
-- [ ] Organize resources tab, including file naming (prioritize within folders)
+    - [X] Add Remaining days (Days 16-24)
+    - [ ] And proofread them [**In Progress**]
+- [ ] Organize resources tab, including file naming (prioritize within folders) [**In Progress**]
+- [ ] Organize sidebar labels to include titles (and not just the day) [**In Progress**]
 - [ ] Add Cyber Risk notes?
 - [ ] Add Advent of Cyber 2022 (after days are finished)
 - [ ] Start adding posts on blog (currently using template placeholders)

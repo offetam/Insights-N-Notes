@@ -68,7 +68,7 @@ module.exports = {
                   'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 1-7 ~ Web Exploitation/Advent of Cyber 2021 Day 7',
                 ],
               },
-              'TryHackMe/Advent-Of-Cyber-2021/Modules/Day 8 ~ Special By Joyn Hammond/Advent of Cyber Day 8',
+              'TryHackMe/Advent-Of-Cyber-2021/Modules/Day 8 ~ Special By Joyn Hammond/Advent of Cyber Day 8', //just realized a folder here wasn't necessary
               {
                 type: 'category',
                 label: 'Days 9-14 ~ Networking',
@@ -84,6 +84,33 @@ module.exports = {
                   'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 9-14 ~ Networking/Advent of Cyber 2021 Day 14',
                 ],
               },
+              'TryHackMe/Advent-Of-Cyber-2021/Modules/Advent of Cyber 2021 Day 16',
+              {
+                type: 'category',
+                label: 'Days 17-18 ~ Cloud',
+                link: {
+                  type: 'generated-index',
+                },
+                items: [
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 17-18 ~ Cloud/Advent of Cyber 2021 Day 17',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 17-18 ~ Cloud/Advent of Cyber 2021 Day 18',
+                ],
+              },
+              {
+                type: 'category',
+                label: 'Days 19-23 ~ Blue Teaming',
+                link: {
+                  type: 'generated-index',
+                },
+                items: [
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 19-24 ~ Blue Teaming/Advent of Cyber 2021 Day 19',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 19-24 ~ Blue Teaming/Advent of Cyber 2021 Day 20',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 19-24 ~ Blue Teaming/Advent of Cyber 2021 Day 21',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 19-24 ~ Blue Teaming/Advent of Cyber 2021 Day 22',
+                  'TryHackMe/Advent-Of-Cyber-2021/Modules/Days 19-24 ~ Blue Teaming/Advent of Cyber 2021 Day 23',
+                ],
+              },
+              'TryHackMe/Advent-Of-Cyber-2021/Modules/Advent of Cyber 2021 Day 24',
             ],   
           },
           {

@@ -1,0 +1,52 @@
+---
+id: Advent of Cyber 2021 Day 21
+title: Day 21
+sidebar_label: Day 21 ~ Needles In Computer Stacks
+description: ​[Day 21] ~ Needles In Computer Stacks
+---
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+## [Day 21] <Highlight color="#6595C4"><span>Blue Teaming</span></Highlight> Needles In Computer Stacks 
+
+>Grinch Enterprises have been very sneaky this year - using multiple attack vectors (both know and unknown) to wreak havoc across the Best Festival Company. It's 4 days from Christmas and there's still so much work to do! McBlue, the only technical person, has suggested using automation and tooling to detect malicious files across the network. Can you work with him to remove any malicious files from the network?
+
+Yara is used to match patterns in malicious files to identify malware patterns. 
+
+Syntax:
+```
+rule rulename
+  {
+    meta:
+      author = "tryhackme"
+      description = "test rule"
+      created = "11/12/2021 00:00"
+    strings:
+      $textstring = "text"
+      $hexstring = {4D 5A}
+    conditions:
+      $textstring and $hexstring
+  }
+```
+
+Metadata is optional but is useful to gain extra info to analyze with. 
+
+![yara.png](/img/_resources/Days_19-24/yara.png)
+
+
+:::tip
+There is even more to learn thru the yara documentation for options and [more](https://yara.readthedocs.io/en/stable/)!
+:::
+
+
+

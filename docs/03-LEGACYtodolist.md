@@ -3,7 +3,7 @@ sidebar_label: Legacy To-Do List
 id: toDoListLEGACY
 ---
 
-# To-Do List 💡
+# LEGACY To-Do List 💡
 
 :::note 
 This is a list of legacy tasks (for archival sake) I've completed as well as the current objective that I am working on. 
@@ -14,7 +14,7 @@ This is a list of legacy tasks (for archival sake) I've completed as well as the
 - [ ] Finish adding all my notes on TryHackMe's Advent of Cyber (also add link here) [**In Progress**]
     - [X] Add Day 8 [**December 2022**]
     - [X] Add Days 9-14 [**January 2023**]
-    - [ ] Add Remaining days (Days 16-24)
+    - [X] Add Remaining days (Days 16-24) [**March 2023**]
     - [ ] Proofread/fix
 
 ## General Ideas 📐
