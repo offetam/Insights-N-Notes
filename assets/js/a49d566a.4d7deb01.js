@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkinsights=self.webpackChunkinsights||[]).push([[2920],{1303:s=>{s.exports=JSON.parse('{"permalink":"/Insights-N-Notes/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
