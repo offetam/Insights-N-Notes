@@ -121,6 +121,27 @@ module.exports = {
               id: 'TryHackMe/Free-Path/Free_Path',
             },
             items: [
+              {
+                type: 'category',
+                label: 'Level 1',
+                link: {
+                  type: 'generated-index',
+                },
+                items: [
+                  'TryHackMe/Free-Path/Level 1/Tutorial',
+                ],
+              },
+              {
+                type: 'category',
+                label: 'Level 2',
+                link: {
+                  type: 'generated-index',
+                },
+                items: [
+                  
+                ],
+              },
+
             ],
           },
       ],
