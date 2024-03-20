@@ -9,7 +9,7 @@ id: toDoList
 This is a list of immediate additions/changes I am looking to make. <br /> In addition, completed tasks will eventually be removed after a certain period of time, and added to the [legacy list instead](03-LEGACYtodolist.md)
 :::
 
-- [ ] Build a homelab (for active directory and malware testing/analysis to post on blog)
+- [X] Build a homelab (for active directory to post on blog)
 - [X] Finish adding all my notes on TryHackMe's Advent of Cyber (also add link here) 
     - [X] Add Day 8
     - [X] Add Days 9-14
@@ -21,6 +21,7 @@ This is a list of immediate additions/changes I am looking to make. <br /> In ad
 - [ ] Add Advent of Cyber 2022 (and Cyber 2023)
 - [ ] Start adding posts on blog (currently using template placeholders)
 - [ ] Even more Proofread (Permanent in this to-do list 😅)
+- [ ] Blog-wise, looking to share some hobby related upskilling (Blender)
 
 ## General Ideas 📐
 
