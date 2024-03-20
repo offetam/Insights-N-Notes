@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinsights=self.webpackChunkinsights||[]).push([[2220],{2069:s=>{s.exports=JSON.parse('{"label":"lab","permalink":"/Insights-N-Notes/blog/tags/lab","allTagsPath":"/Insights-N-Notes/blog/tags","count":1,"unlisted":false}')}}]);
