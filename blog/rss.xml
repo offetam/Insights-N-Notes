@@ -4,7 +4,7 @@
         <title>Insights N' Notes Blog</title>
         <link>https://etam1234.github.io/Insights-N-Notes/blog</link>
         <description>Insights N' Notes Blog</description>
-        <lastBuildDate>Wed, 20 Mar 2024 14:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Mar 2024 15:04:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Active Directory Lab]]></title>
             <link>https://etam1234.github.io/Insights-N-Notes/blog/AD</link>
             <guid>https://etam1234.github.io/Insights-N-Notes/blog/AD</guid>
-            <pubDate>Wed, 20 Mar 2024 14:31:27 GMT</pubDate>
+            <pubDate>Wed, 20 Mar 2024 15:04:46 GMT</pubDate>
             <description><![CDATA[In this lab I set up a Windows Server 2022 Machine, and utilized several Windows 10 VMs. The goal of this lab is to learn more about the tools Windows Server provides and to mimic that of a real network.]]></description>
             <content:encoded><![CDATA[<p>In this lab I set up a Windows Server 2022 Machine, and utilized several Windows 10 VMs. The goal of this lab is to learn more about the tools Windows Server provides and to mimic that of a real network.</p>
 <p>For the setup, I used VirtualBox as this was the most convenient!</p>
