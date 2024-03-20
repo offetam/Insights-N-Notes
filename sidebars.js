@@ -129,7 +129,33 @@ module.exports = {
                 },
                 items: [
                   'TryHackMe/Free-Path/Level 1/Tutorial',
+                  'TryHackMe/Free-Path/Level 1/Intro-To-Offensive-Security',
+                  {
+                    type: 'category',
+                    label: 'Introduction to Pentesting',
+                    link: {
+                      type: 'generated-index',
+                    },
+                    items: [
+                      'TryHackMe/Free-Path/Level 1/Intro to Offensive Pentesting/pentesting-fundamentals',
+                      'TryHackMe/Free-Path/Level 1/Intro to Offensive Pentesting/principles-of-security',
+                    ],
+                  },
+                  {
+                    type: 'category',
+                    label: 'Linux Fundamentals',
+                    link: {
+                      type: 'generated-index',
+                    },
+                    items: [
+                      'TryHackMe/Free-Path/Level 1/Linux Fundamentals/linux-fundamentals-1',
+                      'TryHackMe/Free-Path/Level 1/Linux Fundamentals/linux-fundamentals-2',
+                      'TryHackMe/Free-Path/Level 1/Linux Fundamentals/linux-fundamentals-3',
+                    ],
+                  },
+                  'TryHackMe/Free-Path/Level 1/OHsint',
                 ],
+                
               },
               {
                 type: 'category',

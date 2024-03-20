@@ -9,21 +9,18 @@ id: toDoList
 This is a list of immediate additions/changes I am looking to make. <br /> In addition, completed tasks will eventually be removed after a certain period of time, and added to the [legacy list instead](03-LEGACYtodolist.md)
 :::
 
-- [X] Add first 7 days of TryHackMe
-    - [ ] And proofread them [**In Progress**]
+- [ ] Build a homelab (for active directory and malware testing/analysis to post on blog)
 - [X] Finish adding all my notes on TryHackMe's Advent of Cyber (also add link here) 
     - [X] Add Day 8
     - [X] Add Days 9-14
     - [X] Add Remaining days (Days 16-24)
     - [ ] And proofread them [**In Progress**]
+- [ ] Add TryHackMe free path
 - [ ] Organize resources tab, including file naming (prioritize within folders) [**In Progress**]
 - [ ] Organize sidebar labels to include titles (and not just the day) [**In Progress**]
-- [ ] Add Cyber Risk notes?
-- [ ] Add Advent of Cyber 2022 (after days are finished)
+- [ ] Add Advent of Cyber 2022 (and Cyber 2023)
 - [ ] Start adding posts on blog (currently using template placeholders)
 - [ ] Even more Proofread (Permanent in this to-do list 😅)
-- [ ] Add any more ideas that i should add.
-- [ ] Start working on Hackthebox (maybe also academy?)
 
 ## General Ideas 📐
 
