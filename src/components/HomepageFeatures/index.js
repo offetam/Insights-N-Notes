@@ -19,9 +19,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Read my blog as I take a look back on the OpenSea NFT Phishing scam and observe the current scams since:
+        Read my <a href ="/Insights-N-Notes/blog/Phishing"> blog</a> as I take a look back on older phishing campaigns and look at recent ones on YouTube:
 		
-		BLOG NAME HERE
       </>
     ),
   },
