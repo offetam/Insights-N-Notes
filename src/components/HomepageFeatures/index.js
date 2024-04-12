@@ -19,7 +19,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Read my <a href ="/Insights-N-Notes/blog/Phishing"> blog</a> as I take a look back on older phishing campaigns and look at recent ones on YouTube:
+        Read my <a href ="/Insights-N-Notes/blog/Phishing"> blog</a> as I take a look back on older phishing campaigns and look at recent ones on YouTube
 		
       </>
     ),
