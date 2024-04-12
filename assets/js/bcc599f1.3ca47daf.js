@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinsights=self.webpackChunkinsights||[]).push([[6018],{868:s=>{s.exports=JSON.parse('{"label":"phishing","permalink":"/Insights-N-Notes/blog/tags/phishing","allTagsPath":"/Insights-N-Notes/blog/tags","count":1,"unlisted":false}')}}]);

@@ -4,10 +4,113 @@
         <title>Insights N' Notes Blog</title>
         <link>https://etam1234.github.io/Insights-N-Notes/blog</link>
         <description>Insights N' Notes Blog</description>
-        <lastBuildDate>Wed, 20 Mar 2024 15:04:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Apr 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[A Look at Some Modern Phishing (On YouTube)]]></title>
+            <link>https://etam1234.github.io/Insights-N-Notes/blog/Phishing</link>
+            <guid>https://etam1234.github.io/Insights-N-Notes/blog/Phishing</guid>
+            <pubDate>Wed, 10 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Taking a look back at the OpenSea Phishing Attack]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="taking-a-look-back-at-the-opensea-phishing-attack">Taking a look back at the OpenSea Phishing Attack<a href="https://etam1234.github.io/Insights-N-Notes/blog/Phishing#taking-a-look-back-at-the-opensea-phishing-attack" class="hash-link" aria-label="Direct link to Taking a look back at the OpenSea Phishing Attack" title="Direct link to Taking a look back at the OpenSea Phishing Attack">​</a></h2>
+<p>For those unaware of the incident, the OpenSea marketplace is by their own words the "largest NFT marketplace". As such OpenSea was the target of several phishing campaigns in the past 2 years.</p>
+<p>These campaigns usually are easy to spot by their call to action (usually to fill something private or critical to your account)
+<img loading="lazy" alt="opensea-phishing.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/opensea-phishing-665d79d579ad51fe456d9daf4024be95.png" width="642" height="957" class="img_ev3q"></p>
+<p>In this case, the phishing email attempts to get the user to generate another api key (one that is fake), where instead the site where you input your key will be used to steal the user's NFT.</p>
+<p>Note that the email also addresses the user simply as "message to Developers/OpeanSea API Users". Obviously an email that uses your actual name shouldn't always be trusted, but it should be another signal to be wary of an email if it does not use your username.</p>
+<p>In general, whenever an email asks you to perform a security related operation like changing/updating sensitive information, you should always go directly to the official website to confirm any issues.</p>
+<p>After being reminded of this Phishing campaign from about a year ago, with AI on the rise, I wanted to observe for myself the various ongoing phishing campaigns and, unfortunately there exists a significant amount, right on youtube.com, the fake "livestreams"</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="fake-livestreams">Fake Livestreams<a href="https://etam1234.github.io/Insights-N-Notes/blog/Phishing#fake-livestreams" class="hash-link" aria-label="Direct link to Fake Livestreams" title="Direct link to Fake Livestreams">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-do-channels-get-hijacked">How do Channels Get Hijacked<a href="https://etam1234.github.io/Insights-N-Notes/blog/Phishing#how-do-channels-get-hijacked" class="hash-link" aria-label="Direct link to How do Channels Get Hijacked" title="Direct link to How do Channels Get Hijacked">​</a></h3>
+<p>How do channels get hijacked in the first place? Generally the impersonators will hijack a youtube channel by getting an unsuspecting user to open a file as described here:</p>
+<iframe height="400px" width="100%" src="https://www.youtube.com/embed/nYdS3FIu3rI"></iframe>
+<p><em>tl;dw is that they will send an email with an enticing offer and unbeknownst to the youtuber, the email is attached with malicious code to hijack their channel when run.</em></p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>I strongly recommend watching the video as it goes into greater detail about the phishing campaign!</p></div></div>
+<p><img loading="lazy" alt="502e7cf94ccc2bdb679bd6b4b15fc3cd.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/502e7cf94ccc2bdb679bd6b4b15fc3cd-fd683fc28bee8054945fdc7da80127de.png" width="488" height="563" class="img_ev3q"><br>
+<em>a screenshot of the video detailing how the "pdf" file is actually a "screen saver" file attempting to spoof itself as a non-malicious pdf file.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cs2-fake-livestreams-designed-to-steal-steam-user-data">CS2 Fake LiveStreams (Designed to steal Steam User Data)<a href="https://etam1234.github.io/Insights-N-Notes/blog/Phishing#cs2-fake-livestreams-designed-to-steal-steam-user-data" class="hash-link" aria-label="Direct link to CS2 Fake LiveStreams (Designed to steal Steam User Data)" title="Direct link to CS2 Fake LiveStreams (Designed to steal Steam User Data)">​</a></h3>
+<p>The goal of these CS2 "Livestreams" is to try to steal your Steam user data, by filling out a form you presume will be to login to Steam, but it's not.</p>
+<p>While the first category of examples im about to share do not employ AI, they do use impersonation. These channels will impersonate official esport players/organizations to get users to click their stream:</p>
+<p><img loading="lazy" alt="02bf713f8c255c2990e1cdc572007a02.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/02bf713f8c255c2990e1cdc572007a02-ec91f7634ae53cc3e58b8d85875b1c14.png" width="1920" height="982" class="img_ev3q">
+<em>(Channels posing as the famous CS<!-- -->:GO<!-- --> player <a href="https://liquipedia.net/counterstrike/S1mple" target="_blank" rel="noopener noreferrer">s1mple</a>)</em></p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Before even clicking their video, check out their channel and see if it has any content. Usually these will have no content except a livestream, and also have a suspicious username (in their address bar)</p></div></div>
+<p><img loading="lazy" alt="5817094bed1286e81762fc03a84902c5.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/5817094bed1286e81762fc03a84902c5-387cbeae779213d0738cc866266f3097.png" width="937" height="1262" class="img_ev3q">
+Notice the @ name has various symbols alongisde the name, and has only 1 video, the "livestream".</p>
+<p>Once users click on a stream, they will be greeted by either a vod (video on demand) stream, that is, a "livestream" of a video that the impersonator downloaded.</p>
+<p>Fortunately, for these "livestreams" (which are VODs), there is a huge tell that these are clearly pre-recorded videos that they download:</p>
+<p><img loading="lazy" alt="not a livestream.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/not-a-livestream-f9a03df4134112ce538ca262ac445c95.png" width="1889" height="1107" class="img_ev3q"></p>
+<p>See the highlighted section on the bottom left of the VOD <em>(QR code is intentionally blurred)</em>?
+This is on every client on CS2 which tells you the date and some telemetry information for Valve devs. Notice that it's being recorded on Dec 11th (2023) when it's already April 2024!</p>
+<p>As for the content of what they are offering, these impersonators claim to offer "free" skins by going to their website.</p>
+<p>When you first enter the site, they have a "captcha" which is merely a veil to make the site seem more legit even though, it doesn't actually go through a captcha.</p>
+<p>In addition, if you check the header,
+the referrer policy is "unsafe-url" which by mozilla docs is can be used for malicious purposes.</p>
+<p><img loading="lazy" alt="05d7f5deb8104d001c6524dba94465a8.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/05d7f5deb8104d001c6524dba94465a8-88d7b16ad1eb1d6800e8ad50bae33f8f.png" width="1139" height="299" class="img_ev3q"></p>
+<p><img loading="lazy" alt="header info.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/header-info-e4c24d75b4c482bb1b969b501591dbdf.png" width="1078" height="301" class="img_ev3q"></p>
+<p>If you try to check out their website, they've done some pretty clever things to try and fool players.</p>
+<ol>
+<li>They have a "captcha" which is just to make you feel like the site is "secure".</li>
+<li>When you refresh the site does not change and remember's the skin you "won" (it also happens to be the same skin you win every time you enter the site w/ a new cookie)</li>
+<li>You are prompted with what looks like a legit Steam logon form (more on that down below).
+<img loading="lazy" alt="dangerous_site.gif" src="https://etam1234.github.io/Insights-N-Notes/assets/images/dangerous_site-4c4d2abd68b3502c23f98821b51aea36.gif" width="1482" height="1014" class="img_ev3q"></li>
+</ol>
+<p><img loading="lazy" alt="refresh-attempt.gif" src="https://etam1234.github.io/Insights-N-Notes/assets/images/refresh-attempt-0dfe6ecb9fb63f941f9d5263928464d6.gif" width="1482" height="1014" class="img_ev3q">
+<em>Notice when you refresh the page, there's a single frame of the "case" before switching over to the skin you "won".</em></p>
+<p>Finally, it "pops up" a steam login page except this pop up was not real!</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>My browser settings for pop ups are blocked by default, so this is likely not a pop-up!</p></div></div>
+<p><img loading="lazy" alt="fake-popup.gif" src="https://etam1234.github.io/Insights-N-Notes/assets/images/fake-popup-31ab508ef1359cfcd3a11f35b63ec0e2.gif" width="1482" height="1014" class="img_ev3q"></p>
+<p><strong>Naturally, the site itself is built to look nearly identical to that of steam's actual login splash page and does a great job in doing so</strong></p>
+<p><img loading="lazy" alt="8a214d5c5bab21c867cf5fc1e952974a.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/8a214d5c5bab21c867cf5fc1e952974a-8508385d2cec28c419a68cfd6da75c48.png" width="732" height="730" class="img_ev3q">
+</p><center><em>A look at the real login landing page for Steam.</em></center><p></p>
+<p>Some things to notice about the "form" itself</p>
+<ol>
+<li>The QR code does not work (because it's a temporary login code generated by Steam).</li>
+<li>The address bar is suspiciously unnatural; see how in the link itself there's a small gap</li>
+<li>There's snow "falling" behind this popup (from the css of the website), when it's supposed to be a popup. That should not happen.</li>
+</ol>
+<p>Still, if you didn't know what to look for, you could definitely get fooled by this, it's very impressive.</p>
+<div class="theme-admonition theme-admonition-caution admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>caution</div><div class="admonitionContent_BuS1"><p><strong>Q:</strong> Why are they trying to steal Steam user data?<br>
+<strong>A:</strong> Often times, accounts that this is targetting (Steam users who are aware of Counter-Strike) will likely have skins in their account and they will attempt to trade it off and sell it (Steam has some safeguards that delay such opportunists)</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cs2-esports-fake-livestreams">CS2 Esports Fake Livestreams<a href="https://etam1234.github.io/Insights-N-Notes/blog/Phishing#cs2-esports-fake-livestreams" class="hash-link" aria-label="Direct link to CS2 Esports Fake Livestreams" title="Direct link to CS2 Esports Fake Livestreams">​</a></h3>
+<p>Remember when I described mentioned esport orgs being impersonated? With those, they copy the stream's vods. In this case, the impersonation is clearer because of the checkmark and a more obvious comparison:</p>
+<p><img loading="lazy" alt="35233aea19c4d7c6da612d8a0f68ff92.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/35233aea19c4d7c6da612d8a0f68ff92-9d089b307b72393b1ce52378087727c0.png" width="1041" height="765" class="img_ev3q">
+official ESL channel</p>
+<p><img loading="lazy" alt="ae3bbd8b810b04124c30145787d18dd4.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/ae3bbd8b810b04124c30145787d18dd4-0847196ce205d5190a81beb70b142706.png" width="1100" height="1263" class="img_ev3q">
+Notice the @ does not match up, is not a verified channel, and the name and about page suggests this is a hijiacked channel.</p>
+<p>You can see here with this channel that there's even another video from the youtuber warning others about how their channel got hacked.
+They do not detail how exactly it happened, but I presume likely they opened a file without knowing it was malicious.</p>
+<p><img loading="lazy" alt="person warning.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/person-warning-fb59d2c6c6ef4c74878d36e0da57e805.png" width="1159" height="1273" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="crypto-streams-designed-to-steal-cryptocurrency">Crypto Streams (Designed to Steal Cryptocurrency)<a href="https://etam1234.github.io/Insights-N-Notes/blog/Phishing#crypto-streams-designed-to-steal-cryptocurrency" class="hash-link" aria-label="Direct link to Crypto Streams (Designed to Steal Cryptocurrency)" title="Direct link to Crypto Streams (Designed to Steal Cryptocurrency)">​</a></h3>
+<p>Now what about the crypto related scams? These ones aren't quite phishing campaigns but I thought it was worth sharing nonetheless. Similar to the CS2 "livestream channels", these ones target the crypto audience.</p>
+<p>As you can see here, in this case, the channel hijacked WAS a verified youtuber (denoted by their checkmark) which makes it hard to spot differences (from the official channel its impersonating), but as you'll notice, the channel itself is not quite the same as the channel name as the videos it showcases below the livestream, a small difference you wouldn't notice on a first glance</p>
+<p><img loading="lazy" alt="crypto-variant.gif" src="https://etam1234.github.io/Insights-N-Notes/assets/images/crypto-variant-ba714a7b3293ef8e37ed27abb0f4dcdc.gif" width="1935" height="1014" class="img_ev3q">
+Note how the channels all seem to say ripple, except the livestream, if you are paying attention.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>I believe this is a cooldown based on YouTube's end where it doesn't update all aspects of your channel to your new name until a certain amount of time has passed</p></div></div>
+<p>What's really interesting is that in the "livestream" itself, it loops 2 videos. One video is the normal actual podcast that takes place, and the second video is AI generated, based off of the vod and then modified to make it sounds realistic enough. The scary part is it's quite believable, save for some small portions.</p>
+<p>Here's a short clip showing what i mean:</p>
+<iframe height="400px" width="100%" src="https://www.youtube.com/embed/iQzbwCpxaqw"></iframe>
+<p>Again, even though it's still fairly obvious with the poor lip syncing (presumably done thru editing and not AI), the audio portion is still good enough that some would be tricked into thinking that this was actually the person speaking about the "drop".</p>
+<p>If you compare AI with what it was 2 years ago, it'd look night and day. Honestly, it's pretty scary how accurate AI is becoming.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="how-did-the-channels-get-hijacked">How Did the Channels Get Hijacked?<a href="https://etam1234.github.io/Insights-N-Notes/blog/Phishing#how-did-the-channels-get-hijacked" class="hash-link" aria-label="Direct link to How Did the Channels Get Hijacked?" title="Direct link to How Did the Channels Get Hijacked?">​</a></h4>
+<p>While we have a general idea how channels get hijacked, I  dug a bit further to see what these specific youtubers (being hijacked in the clips I shared here) are saying about the situation.</p>
+<p>Rather than solely contacting via email, these phishing campaigns are now also using twitter as another means of sending malware. Though I havent personally tried it yet, I think it may be fun to see if twitter does scan for malware to an extent.</p>
+<p><img loading="lazy" alt="9412e38e52134004dffe25e2689d3876.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/9412e38e52134004dffe25e2689d3876-96c6a1c867b2384d7122dc5e863b1d50.png" width="652" height="795" class="img_ev3q"></p>
+<blockquote>
+<p>According to A+Start, he clicked on a file without being aware of what had happened until it was too late.</p>
+</blockquote>
+<p>I also found another person tweeting about his situation:</p>
+<p><img loading="lazy" alt="814a3f5a848c31bb50589b1bc67398f8.png" src="https://etam1234.github.io/Insights-N-Notes/assets/images/814a3f5a848c31bb50589b1bc67398f8-f4bfd1fd3d6bee72b4fa95540e52e509.png" width="640" height="674" class="img_ev3q"></p>
+<p>Although I am not sure if the malware itself has persistence, its definitely very scary that it's a possibility.</p>
+<p>X (formerly known as twitter) is undoubtedly a gold mine for anyone looking to start phishing campaigns. Since anyone can "purchase" a verified checkmark, people will likely associate that with a degree of security, when it is not the case.
+I only expect phishing campaigns to rise (on Twitter) for this reason <!-- -->😨</p>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent_BuS1"><p>Do not trust any files from untrusted sources! Even if it's from someone who looks reputable, always triple check before opening files.</p><p>For example, observe file size and file type (properties) and scan files.</p></div></div>
+<p>Obviously this is only the current chapter (as of April) for these phishing attacks on YouTube as they will constantly hop from trend to trend (earlier when LinusTechTips was hacked, his channel was converted to a Tesla channel), to avoid YouTube's detection system.</p>
+<p>Will there be an end to these issues? Honestly I doubt it. With AI, phishing techniques will only become even more advanced and believable. AI will only continue to advance, and so will the phishing awareness campaigns needed to combat these issues.</p>
+<p>Still, I hope this blog was informative! <!-- -->😄</p>]]></content:encoded>
+            <category>phishing</category>
+        </item>
         <item>
             <title><![CDATA[Active Directory Lab]]></title>
             <link>https://etam1234.github.io/Insights-N-Notes/blog/AD</link>
