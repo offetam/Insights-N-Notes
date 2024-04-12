@@ -71,9 +71,14 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Welcome!',
+            label: 'Welcome',
           },
           {to: '/blog', label: 'Blog', position: 'left'}, //to link to blog
+		//  {
+        //    to: '/category/comptia-a-study-notes',
+        //    label: 'A+ Study Notes',
+		//	position: 'left',
+        //  },
           // {
           //   type: 'doc', 
           //   docId: 'toDoList', 

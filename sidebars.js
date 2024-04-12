@@ -36,7 +36,26 @@ module.exports = {
   mySideBar:[
     'intro',
     'toDoList',
-    'toDoListLEGACY',
+	'toDoListLEGACY',
+    {
+      type: 'category',
+      label: 'Comptia A+ Study Notes',
+      link: {
+        type: 'generated-index',
+      },
+	  items: [
+              {
+				 type: 'category',
+                label: '1.1 - 1.4',
+                link: {
+                  type: 'generated-index',
+                },
+                items: [
+                  'Comptia-A+-Study-Notes/1.0-1.4/Laptop Hardware - CompTIA A+ 220-1101 - 1.1',
+                ],  
+			  },
+			],
+	},
     {
       type: 'category',
       label: 'TryHackMe',
@@ -172,6 +191,6 @@ module.exports = {
           },
       ],
     },
-    //'intro', testing sidebar added other stuff (will do eventually later on
+    //'intro', testing sidebar added other stuff (will do eventually later on)
   ],
 };

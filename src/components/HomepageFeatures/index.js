@@ -10,7 +10,18 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        I wanted to have a more streamlined location to save my notes that will also be more readable and deployed online!
+        I wanted to have a more centralized location to save my notes, that I could easily check as well.
+      </>
+    ),
+  },
+  {
+    title: 'Featured Post',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Read my blog as I take a look back on the OpenSea NFT Phishing scam and observe the current scams since:
+		
+		BLOG NAME HERE
       </>
     ),
   },
@@ -20,15 +31,6 @@ const FeatureList = [
     description: (
       <>
         Notes/Insights/Writeups about many interests I have, primarily focused on Cybersecurity.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Docusaurus is powered by React and offers great flexibility and versatility!
       </>
     ),
   },

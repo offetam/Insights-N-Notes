@@ -21,7 +21,9 @@ This is a list of immediate additions/changes I am looking to make. <br /> In ad
 - [ ] Add Advent of Cyber 2022 (and Cyber 2023)
 - [ ] Start adding posts on blog (currently using template placeholders)
 - [ ] Even more Proofread (Permanent in this to-do list 😅)
-- [ ] Blog-wise, looking to share some hobby related upskilling (Blender)
+- [ ] Blog-wise, looking to share some notes on upskilling or certifications
+	- [ ] Notes on Comptia A+
+	- [ ] Proofread Notes
 
 ## General Ideas 📐
 
